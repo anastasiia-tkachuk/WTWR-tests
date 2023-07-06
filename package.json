@@ -1,0 +1,51 @@
+{
+  "name": "wtwr-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "npx wdio run wdio.conf.js",
+    "lint": "npx eslint",
+    "build": "rm -rf ./node_modules && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react": "^4.0.2",
+    "@wdio/browser-runner": "^8.2.6",
+    "@wdio/cli": "^8.11.2",
+    "@wdio/devtools-service": "^5.9.0",
+    "@wdio/firefox-profile-service": "^8.10.4",
+    "@wdio/local-runner": "^8.6.7",
+    "@wdio/mocha-framework": "^8.11.0",
+    "@wdio/spec-reporter": "^8.11.2",
+    "@wdio/sync": "^7.27.0",
+    "chromedriver": "^114.0.2",
+    "eslint": "^8.38.0",
+    "eslint-plugin-mocha": "^10.1.0",
+    "eslint-plugin-wdio": "^8.0.14",
+    "geckodriver": "^3.2.0",
+    "react": "^18.2.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-eslinter-service": "^0.0.4",
+    "wdio-geckodriver-service": "^4.1.1",
+    "wdio-intercept-service": "4.0.0"
+  },
+  "dependencies": {
+    
+    "ejs": "^3.1.9",
+    "got": "^13.0.0",
+    "jpeg-js": "^0.4.4",
+    "minimist": "^1.2.5",
+    "node-forge": "^0.10.0",
+    "request": "^2.88.2",
+    "semver": "^7.5.3",
+    "speedline-core": "^1.4.2",
+    "trim-newlines": "^3.0.0",
+    "xmldom": "^0.6.0"
+  }
+}  
