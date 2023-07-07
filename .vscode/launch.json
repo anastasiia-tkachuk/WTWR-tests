@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/test/specs/modal.e2e.js"
+            "program": "${workspaceFolder}/test/specs/activePage.js"
         }
     ]
 }
