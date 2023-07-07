@@ -15,12 +15,12 @@ describe('User is signed out', () => {
     expect(await signUpButton.isDisplayed()).toBe(true);
   });
 
-//   it('should open Register form', async()=>{
-//     await browser.url(`/`);
-//     await page.openSingnUpForm();
-//     const registerForm = await $(page.registerForm);
-//     expect(registerForm.isDisplayed()).toBe(true);
-//   });
+  it('should open Register form', async()=>{
+    await browser.url(`/`);
+    await page.openSingnUpForm();
+    const registerForm = await $(page.registerForm);
+    expect(await registerForm.isDisplayed()).toBe(true);
+   });
 
 //   it('should fill out email field', async()=>{
 //     await browser.url(`/`);
